@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignment-1\circleArea.cs" />
     <Compile Include="Assignment-1\evenOdd.cs" />
+    <Compile Include="Assignment-1\fibonacci.cs" />
+    <Compile Include="Assignment-1\meterConverter.cs" />
     <Compile Include="Assignment-1\posNeg.cs" />
+    <Compile Include="Assignment-1\result.cs" />
+    <Compile Include="Assignment-1\secToMinHr.cs" />
+    <Compile Include="Assignment-1\squareArea.cs" />
+    <Compile Include="Assignment-1\Table.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
