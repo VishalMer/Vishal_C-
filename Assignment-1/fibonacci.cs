@@ -17,17 +17,17 @@ namespace _4BCAA.Assignment_1
             {
                 if (i == 0)
                 {
-                    next = first; 
+                    next = first;
                 }
                 else if (i == 1)
                 {
-                    next = second; 
+                    next = second;
                 }
                 else
                 {
-                    next = first + second; 
+                    next = first + second;
                     first = second;
-                    second = next; 
+                    second = next;
                 }
                 Console.Write(next + " ");
             }

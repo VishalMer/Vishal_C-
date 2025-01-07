@@ -22,26 +22,26 @@ namespace _4BCAA.Assignment_1
                 Console.WriteLine("Invalid input, please select between 1-2");
             }
 
-            if(choice == 1)
+            if (choice == 1)
             {
                 Console.Write("Enter length in millimeters: ");
                 double millimeters = Convert.ToDouble(Console.ReadLine());
-                    if (millimeters < 0)
-                    {
-                        Console.WriteLine("Invalid input, please enter number which is greater than 0.");
-                    }
-                double centimeters = millimeters / 10; 
-                Console.WriteLine(millimeters +"mm is equal to "+centimeters+"cm");
+                if (millimeters < 0)
+                {
+                    Console.WriteLine("Invalid input, please enter number which is greater than 0.");
+                }
+                double centimeters = millimeters / 10;
+                Console.WriteLine(millimeters + "mm is equal to " + centimeters + "cm");
             }
             else if (choice == 2)
             {
                 Console.Write("Enter length in meters: ");
                 double meters = Convert.ToDouble(Console.ReadLine());
-                    if (meters < 0)
-                    {
-                        Console.WriteLine("Invalid input, please enter number which is greater than 0.");
-                    }
-                double kilometers = meters / 1000; 
+                if (meters < 0)
+                {
+                    Console.WriteLine("Invalid input, please enter number which is greater than 0.");
+                }
+                double kilometers = meters / 1000;
                 Console.WriteLine(meters + "m is equal to " + kilometers + "km");
             }
         }
