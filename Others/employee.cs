@@ -38,12 +38,12 @@ namespace _4BCAA.Others
 
         }
 
-        public getAge()
+        public int getAge()
         {
             return age;
         }
 
-        public getName()
+        public string getName()
         {
             return name;
         }
@@ -72,13 +72,13 @@ namespace _4BCAA.Others
             Console.WriteLine();
 
 
-            if (e1.age > e2.age)
+            if (e1.getAge() > e2.getAge())
             {
-                Console.WriteLine(e1.name + " is older.");
+                Console.WriteLine(e1.getName() + " is older.");
             }
             else
             {
-                Console.WriteLine(e2.name + " is older.");
+                Console.WriteLine(e2.getName() + " is older.");
             }
         }
     }
