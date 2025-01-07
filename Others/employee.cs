@@ -37,6 +37,16 @@ namespace _4BCAA.Others
             Console.WriteLine("salary of the employee is : " + salary);
 
         }
+
+        public getAge()
+        {
+            return age;
+        }
+
+        public getName()
+        {
+            return name;
+        }
     }
 
     class employee2
@@ -59,6 +69,17 @@ namespace _4BCAA.Others
 
             Console.WriteLine("Employee 2 details : ");
             e2.showData();
+            Console.WriteLine();
+
+
+            if (e1.age > e2.age)
+            {
+                Console.WriteLine(e1.name + " is older.");
+            }
+            else
+            {
+                Console.WriteLine(e2.name + " is older.");
+            }
         }
     }
 }
