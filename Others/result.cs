@@ -33,27 +33,27 @@ namespace _4BCA
 
             if (avg>=95)
             {
-                Console.WriteLine("your result is 'ABOVE DISTINCTION', Average is : " + avg);
+                Console.WriteLine("your grade is 'A+', Average is : " + avg);
             }
             else if (avg>=90)
             {
-                Console.WriteLine("your result is 'DISTINCTION', Average is : " + avg);
+                Console.WriteLine("your grade is 'A', Average is : " + avg);
             }
             else if(avg>=80)
             {
-                Console.WriteLine("your result is 'FIRST CLASS', Average is : " + avg);
+                Console.WriteLine("your grade is 'B', Average is : " + avg);
             }
             else if (avg >= 60)
             {
-                Console.WriteLine("your result is 'SECOND CLASS', Average is : " + avg);
+                Console.WriteLine("your grade is 'C', Average is : " + avg);
             }
             else if (avg >= 40)
             {
-                Console.WriteLine("your result is 'PASS', Average is : " + avg);
+                Console.WriteLine("your grade is 'D', Average is : " + avg);
             }
             else if (avg < 40)
             {
-                Console.WriteLine("your result is 'FAILED', Average is : " + avg);
+                Console.WriteLine("your are 'FAILED', Average is : " + avg);
             }
 
         }
